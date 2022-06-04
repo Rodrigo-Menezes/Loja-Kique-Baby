@@ -46,8 +46,10 @@ nav header svg {
     margin-right: 1rem;
 }
 
-header img{
-    margin-top: 5rem;
+ .logo img{
+    z-index: 5;
+    margin-top:3rem;
+    width: 100%;
 }
 
 .menu-mobile ul {
@@ -98,7 +100,11 @@ header img {
     height: 30vh;
     border-radius: 0.5rem;
     margin: 0.6rem;
-    box-shadow: .4rem .4rem .4rem rgb(58, 58, 58);
+    box-shadow: 1rem 1rem 1rem rgb(58, 58, 58);
+    transition: transform 0.3s;
+}
+.card:hover{
+    transform: scale(1.1);
 }
 .card p{
     color: var(--text-color);
