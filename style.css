@@ -1,0 +1,192 @@
+:root {
+    --primary-color: rgb(154, 244, 244);
+    --secondary-color: rgb(18, 229, 240);
+    --text-color: rgb(255, 255, 255);
+    --font: 'Manrope', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-family: var(--font);
+}
+
+.wrapper {
+    width: min(50rem, 100%);
+    margin-inline: auto;
+    background-color: var(--primary-color);
+}
+
+nav header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    background: var(--secondary-color);
+    border-bottom: solid 1px var(--text-color);
+}
+
+nav header a {
+    margin-left: 1rem;
+    color: var(--text-color);
+    font-size: 1.2rem;
+}
+
+nav header svg {
+    margin-right: 1rem;
+
+}
+
+.menu-mobile ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu-mobile ul li {
+    margin: 1rem;
+    display: none;
+}
+
+.menu-mobile ul li a {
+    color: var(--text-color);
+    font-family: var(--font);
+    margin: 3rem;
+}
+
+
+header img {
+    width: 100%;
+    height: 12rem;
+    object-fit: cover;
+}
+.nosso-produtos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+    color: rgb(16, 87, 94);
+}
+.cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 1rem;
+    margin-bottom: 3rem;
+}
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: auto;
+    height: 20vh;
+    border-radius: 0.5rem;
+    margin: 0.6rem;
+    box-shadow: .4rem .4rem .4rem rgb(58, 58, 58);
+}
+.card p{
+    color: var(--text-color);
+    position: absolute;
+    font-size: 1.5rem;
+    text-shadow: .1rem .1rem .1rem black;
+}
+.img-back {
+    width: 100%;
+    height: 100%;
+    border: solid 0.1rem var(--text-color);
+    border-radius: 0.5rem;
+    object-fit: contain;
+}
+
+h1 {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 2.1rem;
+    color:#F6B0D0;
+    text-shadow: .1rem .1rem .1rem rgb(56, 56, 56);
+    
+}
+
+h3 {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: rgb(16, 87, 94);
+}
+button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-inline: auto;
+    gap: .5rem;
+    border: solid 0.1rem white;
+    border-radius: 1rem;
+    color: var(--text-color);
+    background-color: rgb(16, 87, 94);
+    font-size: 1rem;
+    padding: .5rem;
+    margin-top: 3rem;
+}
+
+.sobre{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+    padding:1rem;
+    background-color: rgb(230, 243, 243);
+    border-radius: 1rem;
+}
+.sobre h2{
+    margin-bottom: 1rem;
+}
+.sobre img{
+    filter: drop-shadow(10px 10px 4px rgba(0, 0, 0, .5));
+    width: 100%;
+}
+
+.rodape{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:var(--secondary-color);
+}
+.rodape h1{
+    color: var(--text-color)
+}
+.rodape p {
+    display: flex;
+    color:rgb(16, 87, 94);
+    margin-left:2rem ;
+    gap:1rem;
+}
+.links{
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+.rodape button{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
