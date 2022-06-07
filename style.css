@@ -274,12 +274,14 @@ h3 {
     justify-content: center;
     align-items: center;
     background-color: var(--secondary-color);
+    padding:1rem;
+    border-top: var(--text-color) solid 1px;
 }
 
 .rodape h1 {
     width: 100%;
     color: var(--text-color);
-    border-top: var(--text-color) solid 1px;
+    
 }
 
 .rodape p {
