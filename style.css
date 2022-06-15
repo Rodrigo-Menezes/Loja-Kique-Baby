@@ -169,6 +169,7 @@ header img {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     flex-wrap: wrap;
     margin-bottom: 3rem;
 }
@@ -183,7 +184,8 @@ header img {
     align-items: flex-end;
     justify-content: center;
     text-align: center;
-    width: 11rem;
+    
+    width: 10rem;
     height: auto;
     border-radius: 0.5rem;
     margin: 1rem;
