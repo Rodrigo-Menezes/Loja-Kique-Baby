@@ -162,7 +162,7 @@ header img {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    margin: 2rem;
+    margin: 1rem;
     margin-bottom: 3rem;
 }
 .img-back {
@@ -178,7 +178,7 @@ header img {
     text-align: center;
     height: 40vh;
     border-radius: 0.5rem;
-    margin: 0.4rem;
+    margin: 1rem;
     box-shadow: .5rem .5rem .5rem rgb(80, 79, 79);
     transition: transform 0.3s;
     
